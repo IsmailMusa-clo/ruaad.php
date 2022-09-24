@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&display=swap');
+:root{
+
+    --first-color:#5b4834;
+    --second-color:#aaa69d;
+}
+*{
+    font-family:'Cairo', sans-serif;
+
+}
+.navbar{
+    background-color:rgb(255, 255, 255);
+    height:12vh;
+    color:#d6793f;
+}
+
+
+.navbar .nav-item a{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.navbar .nav-item a:hover{
+    color: #ffd5b9;
+}
+.navbar-brand{
+  font-weight: 800;
+  text-shadow:0px 2px 2px #5b4834;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+body{
+    background-color: #fff;
+    height: 100vh;
+}
+
+#side-area{
+background:#403f40;
+color: #fff;
+padding: 20px 0;
+height:92vh;
+ }
+ 
+
+#side-area h4{
+text-align: center;
+margin-bottom: 20px;
+}
+
+#side-area ul{
+    list-style: none;
+    padding: 0; 
+}
+#side-area ul li{
+    background: linear-gradientto (to left, #28a786, #60eaab);
+        margin-bottom: 10px;
+    padding: 5px;
+}
+
+#side-area ul li span{
+    padding-right: 5px;
+    color: #fff;
+}
+
+#side-area #menu li{
+     background: #7129a8;
+     margin-right: 9px;
+ }
+ #main-area{
+     margin-top: 10px;
+ }
+
+ /* category */
+ .btn-custom{
+     background: #d027c2;
+     color: rgb(0, 0, 0);
+     margin-top: 10px;
+     border: 1px solid var(--first-color);
+     padding: 5px 10px;
+     width: 100px;
+ }
+  
+ .add-category{
+     margin-top: 30px;
+
+ }
+
+ form div{
+     margin-bottom: 10px;
+ }
+ 
+ form div label{
+    margin-bottom: 5px;
+}
